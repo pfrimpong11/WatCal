@@ -1541,14 +1541,14 @@ body {
   .chart-container {
     margin-left: -31.5px;
     border-radius: 5px;
-    background-color: #bfbfbf;
+    background-color: #313131;
     overflow-x: auto;
     align-items: flex-start;
     padding: 7.4px 0 25px 12px;
     max-width: 110%;
     text-align: right;
     font-size: 12px;
-    color: #1a1a1a;
+    color:white;
     font-family: Inter;
   }
   .dash,
@@ -1565,7 +1565,7 @@ body {
     padding: 28px 30px 4px;
     box-sizing: border-box;
     gap: 40px;
-    background-image: url(./public/dash@3x.png);
+    background-image: url(./public/.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -1890,6 +1890,8 @@ body {
     display: inline-block;
     min-width: 105px;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .legal-separator {
     height: 25px;
@@ -1905,6 +1907,8 @@ body {
     display: inline-block;
     min-width: 125px;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .container,
   .legal-links,
@@ -2484,6 +2488,8 @@ body {
     line-height: 150%;
     font-weight: 300;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .lenght5 {
     height: 22px;
@@ -2497,6 +2503,8 @@ body {
     line-height: 150%;
     font-weight: 300;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .btt-bar,
   .popper {

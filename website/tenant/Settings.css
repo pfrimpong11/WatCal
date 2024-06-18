@@ -965,6 +965,8 @@
     display: inline-block;
     min-width: 105px;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .legal-divider {
     height: 25px;
@@ -980,6 +982,8 @@
     display: inline-block;
     min-width: 125px;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .container3,
   .legal-links,
@@ -1406,6 +1410,8 @@
     line-height: 150%;
     font-weight: 300;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .line {
     height: 22px;
@@ -1419,6 +1425,8 @@
     line-height: 150%;
     font-weight: 300;
     cursor: pointer;
+    color: #bfbfbf;
+    text-decoration: none;
   }
   .under,
   .popup-wrapper {

@@ -130,9 +130,11 @@
               <div class="lenght4"></div>
             </section>
             <div class="btt-bar">
-              <div class="txt-button" id="txtButton">Privacy Policy</div>
+              <!-- <div class="txt-button" id="txtButton">Privacy Policy</div> -->
+              <a href="/website/other/Privacy.html" class="txt-button">Privacy Policy</a>
               <div class="lenght5"></div>
-              <div class="txt-button1" id="txtButton1">Terms of Service</div>
+              <!-- <div class="txt-button1" id="txtButton1">Terms of Service</div> -->
+              <a href="/website/other/Terms.html" class="txt-button1">Terms of Service</a>
             </div>
           </div> 
     </div>
@@ -594,11 +596,11 @@
           </div>
           <div class="legal-links">
             <div class="legal-links-container">
-              <!-- <div class="text-button6" id="textButton6">Privacy Policy</div> -->
-              <a href="/website/other/Privacy.html"class="text-button6" ></a>
+              <!-- <div class="text-button6" id="textButton6">/div> -->
+              <a href="/website/other/Privacy.html"class="text-button6" >Privacy Policy</a>
               <div class="legal-separator" ></div>
-              <!-- <div class="text-button7" id="textButton7">Terms of Service</div> -->
-              <a href="/website/other/Terms.html" class="text-button7"></a>
+              <!-- <div class="text-button7" id="textButton7"></div> -->
+              <a href="/website/other/Terms.html" class="text-button7">Terms of Service</a>
             </div>
           </div>
         </div>
@@ -662,21 +664,6 @@
             window.location.href = "../other/Security.html";
         });
       }
-      
-      var textButton6 = document.getElementById("textButton6");
-      if (textButton6) {
-        textButton6.addEventListener("click", function (e) {
-            window.location.href = "../../other/Privacy.html";
-        });
-      }
-      
-      var textButton7 = document.getElementById("textButton7");
-      if (textButton7) {
-        textButton7.addEventListener("click", function (e) {
-            console.log("Clicked");
-            window.location.href = "../other/Terms.html";
-        });
-      }
 
       var group = document.getElementById("group");
       if (group) {
@@ -717,20 +704,6 @@
       if (openerBtnContainer) {
         openerBtnContainer.addEventListener("click", function (e) {
             window.location.href = "../other/Home.html";
-        });
-      }
-      
-      var txtButton = document.getElementById("txtButton");
-      if (txtButton) {
-        txtButton.addEventListener("click", function (e) {
-            window.location.href = "../other/Privacy.html";
-        });
-      }
-      
-      var txtButton1 = document.getElementById("txtButton1");
-      if (txtButton1) {
-        txtButton1.addEventListener("click", function (e) {
-            window.location.href = "../other/Terms.html";
         });
       }
       </script>

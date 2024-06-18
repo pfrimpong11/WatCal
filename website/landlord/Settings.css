@@ -1227,7 +1227,6 @@
   }
   .d_b {
     position: relative;
-    text-decoration: line-through;
     line-height: 87.52%;
   }
   .dbtn,
@@ -1510,7 +1509,7 @@
     text-align: left;
     font-size: 20px;
     color: #fff;
-    font-family: Inter;
+    font-family: 'Lexend', sans-serif; 
   }
   .txt-button {
     position: relative;
@@ -1563,7 +1562,7 @@
     text-align: left;
     font-size: 14px;
     color: #b3b3b3;
-    font-family: Lexend;
+    font-family: 'Lexend', sans-serif; 
     left: 10%;
     top: 11%;
   }
